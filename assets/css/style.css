@@ -56,8 +56,8 @@ Global Styles
 @import url(../scss/icons/themify-icons/themify-icons.css);
 @import url(../scss/icons/flag-icon-css/flag-icon.min.css);
 @import url(../scss/icons/material-design-iconic-font/css/materialdesignicons.min.css);
-@import url(spinners.css);
-@import url(animate.css);
+@import url(../css/spinners.css);
+@import url(../css/animate.css);
 
 * {
   outline: none;
@@ -3218,7 +3218,7 @@ File: scss
 Custom-select
 ******************/
 .custom-select {
-  background: url(../images/custom-select.png) right 0.75rem center no-repeat;
+  background: url(../../assets/images/custom-select.png) right 0.75rem center no-repeat;
 }
 
 /*******************
@@ -7201,7 +7201,7 @@ File: scss
 }
 
 .has-success .form-control-success {
-  background-image: url(../images/icon/success.svg);
+  background-image: url(../../assets/images/icon/success.svg);
 }
 
 .has-success .form-control {
@@ -7213,7 +7213,7 @@ File: scss
 }
 
 .has-warning .form-control-warning {
-  background-image: url(../images/icon/warning.svg);
+  background-image: url(../../assets/images/icon/warning.svg);
 }
 
 .has-warning .form-control {
@@ -7225,7 +7225,7 @@ File: scss
 }
 
 .has-danger .form-control-danger {
-  background-image: url(../images/icon/danger.svg);
+  background-image: url(../../assets/images/icon/danger.svg);
 }
 
 .has-danger .form-control {
